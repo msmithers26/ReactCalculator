@@ -1,0 +1,24 @@
+h1, p {
+  font-family: Lato;
+}
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+/* Grid Classes - Columns */
+.col-1 { grid-column: 2 / 3; }
+.col-2 { grid-column: 3 / 4; }
+.col-3 { grid-column: 4 / 5; }
+.col-4 { grid-column: 5 / 6; }
+.col-1-2 { grid-column: 2 / 4; }
+.col-1-4 { grid-column: 2 / 6; }
+/* Grid Classes - Rows */
+.row-1 { grid-row: 2 / 3; }
+.row-2 { grid-row: 3 / 4; }
+.row-3 { grid-row: 4 / 5; }
+.row-4 { grid-row: 5 / 6; }
+.row-5 { grid-row: 6 / 7; }
+.row-6 { grid-row: 7 / 8; }
+.row-7 { grid-row: 8 / 9; }
+.row-1-2 { grid-row: 2 / 4; }
